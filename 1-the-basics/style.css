@@ -1,23 +1,39 @@
 blockquote {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size:large;
 }
 
 button:hover {
     background-color: palevioletred;
 }
 
-footer, header {
+.footer{
     background-color: peachpuff;
 }
 
-form {
-    background-image: url(https://1.bp.blogspot.com/-aOdYJd_BI9E/UfGjBm5OmdI/AAAAAAAAErc/KFPcoQZ3q00/s1600/wallpapers_tecnologia_computacion_by_madboxpc-1.png);
-    background-size: cover;
-    background-color: salmon;
-    color:moccasin;
+form {    
+    background-color: mediumpurple;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
 } 
 
-h1, h2,h3, h4, li, p{
+header {
+    background-color: cadetblue;
+}
+
+h1, h2{
+    font-weight: 4000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+h3, h4, li, p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: orangered;
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-arte-abstracto-color-verde-claro-amarillo_113767-1205.jpg);
+    background-size: cover;
 }
