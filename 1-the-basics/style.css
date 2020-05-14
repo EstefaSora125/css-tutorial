@@ -1,0 +1,39 @@
+blockquote {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+footer {
+    background-color: peachpuff;
+}
+
+form {    
+    background-color: mediumpurple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+} 
+
+header {
+    background-color: cadetblue;
+}
+
+h1, h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 4000;
+}
+
+h3, h4, li, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: orangered;
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-arte-abstracto-color-verde-claro-amarillo_113767-1205.jpg);
+    background-size: cover;
+}
