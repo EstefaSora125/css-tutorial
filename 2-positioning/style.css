@@ -2,7 +2,7 @@
 footer {
     background: black;
     border: 2px solid orange;
-    bottom: 55%;
+    bottom: 0;
     color: white;
     left: 0;
     position: fixed;
@@ -26,5 +26,4 @@ section {
     border: 2px solid red;
     margin-left: 200px;
     padding: 20px;
-    position: static;
 }
