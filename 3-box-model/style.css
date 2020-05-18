@@ -1,0 +1,35 @@
+
+footer {
+    background: black;
+    border: 2px solid orange;
+    bottom: 0;
+    color: white;
+    left: 0;
+    position: fixed;
+    right: 0;
+}
+
+header {
+    background: black;
+    border: 2px solid green;
+    color: white;
+    position: sticky;
+}
+
+nav {
+    border: 2px solid blue;
+    padding-left: 20px;
+    padding-right: 80px;
+    position: absolute;
+}                
+
+nav ul {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    border: 2px solid red;
+    margin-left: 202px;
+    padding: 20px;
+}
