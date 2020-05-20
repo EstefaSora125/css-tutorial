@@ -14,8 +14,8 @@ body {
 }
 
 button {
-    border-radius: 10PX;
-    height: 35PX;
+    border-radius: 10px;
+    height: 35px;
     margin-top: 40px;
     width: 300px;
 }
@@ -23,7 +23,6 @@ button {
 button, p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
-    justify-content: center;
     padding-right: 15px;
 }
 
@@ -41,13 +40,10 @@ h1, h2 {
 
 img {
     height: 200px;
-    object-fit: cover;
-    width: 105px;
+    width: 150px;
 }
 
 main {
     display: flex;
     flex-wrap: wrap ;
 }
-
-
