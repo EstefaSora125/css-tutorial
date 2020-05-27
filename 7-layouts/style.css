@@ -1,0 +1,135 @@
+
+@media screen and (min-width: 545px){
+    h1 {
+       font-size: 400%;
+   }
+
+    h2 {
+        font-size: x-large;
+        width: 40%;        
+        padding-bottom: 3%;
+    }
+
+    p {
+        font-size: 130%;
+    }
+}
+
+@media screen and (max-width: 1024px){    
+    article {
+        width: 40%;   
+    }  
+    
+   h1 {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 544px){
+    article {
+       width: 70%;  
+   }   
+
+    h1 {
+       
+       font-size: 180%;
+    }
+
+    h2 {
+        font-size: x-large;
+        width: 70%;
+        padding-bottom: 6%;
+    }    
+
+    p {
+        font-size: 70%;
+    }   
+}
+
+@media screen and (min-width: 869px){
+    article {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 30%;    
+    }
+
+    h2 {
+        font-size: x-large;
+        width: 30%;
+    }
+}
+
+article {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.banner {
+    align-items: center;
+    background-image: url(https://studioghiblimovies.com/wp-content/uploads/2018/11/164644889-ponyo-wallpapers-1024x554.jpg);
+    background-size: cover;
+    display: flex;
+    flex-flow: wrap row;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+body {
+    background-color:#BCD470;
+}
+
+.description_movie {
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top:3%;
+    background-color:#333332;
+    font-size:x-large;
+    height: 30px;
+}
+
+header, p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-right: 40px;
+    color: white;
+}
+
+h2 {
+    align-self: flex-end;
+    background-color: #BCD470;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    position: absolute;
+    opacity: 0.7;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    width: 50%;
+}
+
