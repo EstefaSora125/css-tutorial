@@ -1,0 +1,82 @@
+@media screen and (max-width: 500px){
+    h2 {
+        font-size: 130%;
+        width: 50%;
+    }
+
+    .movies {
+        padding: 5px;
+        width: 50%;   
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 501px){
+    h2, .movies {
+        width: 30%;   
+    }
+
+    .paragraph {
+        font-size: 150%;
+    }
+}
+
+.banner {
+    background-image: url(https://studioghiblimovies.com/wp-content/uploads/2018/11/164644889-ponyo-wallpapers-1024x554.jpg);
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    padding: 5%;
+}
+
+body, h2 {
+    background-color:#BCD470;
+}
+
+.description_movie {
+    display: flex;
+    height: 80%;
+}
+
+header {
+    background-color:#333332;
+    position: sticky;
+    top: 3%;
+}
+
+header, h1, .paragraph {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+h1 {
+    margin-right: 35px;
+}
+
+h2 {
+    align-self: flex-end;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;   
+    opacity: 0.7;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.movies {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.paragraph {
+    width: 65%;
+}
