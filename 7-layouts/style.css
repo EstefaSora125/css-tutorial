@@ -1,17 +1,11 @@
-
 @media screen and (min-width: 545px){
-    h1 {
-       font-size: 400%;
-   }
-
     h2 {
-        font-size: x-large;
         width: 40%;        
         padding-bottom: 3%;
     }
 
-    p {
-        font-size: 130%;
+    .paragraph {
+        font-size: 150%;
     }
 }
 
@@ -28,28 +22,20 @@
 @media screen and (max-width: 544px){
     article {
        width: 70%;  
-   }   
-
-    h1 {
-       
+   }
+   
+    h1 {       
        font-size: 180%;
     }
 
     h2 {
-        font-size: x-large;
-        width: 70%;
-        padding-bottom: 6%;
+       font-size: x-large;
+       width: 70%;
     }    
-
-    p {
-        font-size: 70%;
-    }   
 }
 
 @media screen and (min-width: 869px){
     article {
-        padding-left: 10px;
-        padding-right: 10px;
         width: 30%;    
     }
 
@@ -64,16 +50,15 @@ article {
     padding-right: 15px;
 }
 
-
 .banner {
-    align-items: center;
     background-image: url(https://studioghiblimovies.com/wp-content/uploads/2018/11/164644889-ponyo-wallpapers-1024x554.jpg);
     background-size: cover;
+    border: 2px solid;
     display: flex;
     flex-flow: wrap row;
-    padding-top: 10%;
+    justify-content: center;
     padding-bottom: 10%;
-
+    padding-top: 10%;
 }
 
 body {
@@ -83,26 +68,26 @@ body {
 .description_movie {
     display: flex;
     height: 80%;
-    width: 100%;
 }
 
 header {
-    position: sticky;
-    top:3%;
     background-color:#333332;
+    border: 2px solid tomato;
     font-size:x-large;
     height: 30px;
+    position: sticky;
+    top:3%;
 }
 
-header, p {
+header, .paragraph {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
+    color: white;
     margin-left: 20px;
     margin-right: 40px;
-    color: white;
 }
 
 h2 {
@@ -127,9 +112,7 @@ main {
     margin-top: 2%;
 }
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.paragraph {
     padding-left: 50px;
     width: 50%;
 }
-
