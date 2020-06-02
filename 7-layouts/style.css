@@ -1,7 +1,18 @@
-@media screen and (min-width: 545px){
+@media screen and (max-width: 500px){
     h2 {
-        width: 40%;        
-        padding-bottom: 3%;
+        font-size: 130%;
+        width: 50%;
+    }
+
+    .movies {
+        padding: 5px;
+        width: 50%;   
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width:501px){
+    h2, .movies {
+        width: 30%;   
     }
 
     .paragraph {
@@ -9,59 +20,14 @@
     }
 }
 
-@media screen and (max-width: 1024px){    
-    article {
-        width: 40%;   
-    }  
-    
-   h1 {
-        font-size: xx-large;
-    }
-}
-
-@media screen and (max-width: 544px){
-    article {
-       width: 70%;  
-   }
-   
-    h1 {       
-       font-size: 180%;
-    }
-
-    h2 {
-       font-size: x-large;
-       width: 70%;
-    }    
-}
-
-@media screen and (min-width: 869px){
-    article {
-        width: 30%;    
-    }
-
-    h2 {
-        font-size: x-large;
-        width: 30%;
-    }
-}
-
-article {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .banner {
     background-image: url(https://studioghiblimovies.com/wp-content/uploads/2018/11/164644889-ponyo-wallpapers-1024x554.jpg);
-    background-size: cover;
-    border: 2px solid;
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    padding-bottom: 10%;
-    padding-top: 10%;
+    padding: 5%;
 }
-
-body {
+body, h2 {
     background-color:#BCD470;
 }
 
@@ -72,31 +38,24 @@ body {
 
 header {
     background-color:#333332;
-    border: 2px solid tomato;
-    font-size:x-large;
-    height: 30px;
     position: sticky;
     top:3%;
 }
 
-header, .paragraph {
+header, h1, .paragraph {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
 }
 
 h1 {
-    color: white;
-    margin-left: 20px;
-    margin-right: 40px;
+    margin-right: 35px;
 }
 
 h2 {
     align-self: flex-end;
-    background-color: #BCD470;
-    display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    justify-content: center;
-    position: absolute;
+    position: absolute;   
     opacity: 0.7;
 }
 
@@ -112,7 +71,11 @@ main {
     margin-top: 2%;
 }
 
+.movies {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
 .paragraph {
-    padding-left: 50px;
-    width: 50%;
+    width: 65%;
 }
